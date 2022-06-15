@@ -1,0 +1,156 @@
+html{
+    background-image: url(bg-intro-desktop\ \(1\).png);
+    background-color: rgba(230, 101, 123, 0.959);
+    background-size: cover;
+}
+*{
+     margin:0;
+     padding: 0; 
+    box-sizing: border-box; 
+}
+main{
+    width: 70%;
+    margin: auto; 
+    display:flex;
+    justify-items:center;
+    align-items: center;
+    align-content: center;
+    font-size: 16px; 
+    font-family: url "Poppins https://fonts.google.com/specimen/Poppins";
+    font-weight:400, 500, 600, 700 ;
+    
+}
+
+/* }
+    /* justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+}
+div.six{
+    margin: 1px;
+    color: white;
+ }
+ h5{ 
+ margin-top: -200px; 
+ color: white; 
+ }
+
+form{
+    /* margin-top: -100px; */
+     /* width: 50vh ; 
+     font-size: 10vh; 
+    background-color: white;
+    border-radius: 20px;
+    margin-left: -100px;
+    margin-top: 200px;
+    margin-right: -1000px;
+}
+input{
+    width: 270px;
+    margin:10px ;
+    padding: 10px;
+    border-radius: 10px;
+    margin:20px ;
+}
+h1{
+    font-display: solid bold;
+    color: white;
+} */
+/* .ten{
+    color: rgb(226, 216, 216);
+     margin-top: -200px;
+      margin-right: -300px;
+      background-color: blue;
+}
+p{
+ color: rgb(226, 216, 216);
+}
+div.two{
+    margin-right: 80px;
+}
+button{
+    width:270px ;
+    margin: 20px;
+    padding: 10px;
+  color: white; 
+  background-color: green; 
+  border: none;
+}
+ .yt{
+    width: 50vh;
+    background-color: blue;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom:none; 
+}
+ #try{
+     width: 50vh;
+    margin-bottom: -170px;
+    padding: 30px;
+    background-color: blue;
+    align-items: center;
+}
+#word{
+ */
+form{
+    width:400px ;
+    background-color: white;
+    background-size: 500px;
+    font-size: 15px; 
+      text-align: center; 
+     border-radius: 20px;
+     /* margin: 10px; */
+     justify-content: center;
+}
+#try{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    /* margin: 10px; */
+    justify-content: center;
+     text-align: center; 
+}
+#word{
+  color:white ;
+  margin: auto;
+  align-content: center;
+}
+.text{
+    margin-bottom: 10px;
+}
+.para{
+    margin-right: 60px;
+    word-spacing: 2px;
+}
+#second{
+    color: white;
+}
+input{
+    width: 270px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 20px;
+    text-align: center;
+}
+button{
+    width: 270px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: hsl(154, 59%, 51%) ;
+    border: none;
+    margin-bottom: 30px;
+}
+.para{
+     word-spacing: 5px;
+    color: rgb(199, 189, 189);
+    margin-left: -290;
+    align-content: center;
+}
+strong{
+    color:  hsl(0, 100%, 74%);
+}
