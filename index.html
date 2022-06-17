@@ -28,23 +28,23 @@
     <div id="try">
  <p id="second"> <b>Try it free 7days </b><em>then $20/mo thereafter.</em></p>
     </div>
-    <form class="form" >
+    <form class="form"  action="">
 <div class="six">
-        <div class="input-conntainer"  data-error="error." >
-        <input type="input" placeholder="First Name"  required>
+        <div class="input-conntainer"  data-error="First Name cannot be empty ." >
+        <input type="text" placeholder="First Name" id="Fname"  required>
     </div>
-    <div class="input-conntainer" >
-        <input class="input" type="text" placeholder="Last Name" required>
+    <div class="input-conntainer" data-error="Last Name cannot be empty" >
+        <input class="input" type="text" placeholder="Last Name" id="Lname" required>
     </div>
-    <div class="input-conntainer"  >
-        <input type="input" placeholder="Email Address" required>
+    <div class="input-conntainer" data-error="Looks like this is not an Email"  >
+        <input type="email" placeholder="Email Address" id="Email" required>
     </div>
-    <div class="input-conntainer">
-        <input class="input" type="password" placeholder="Password" required>
+    <div class="input-conntainer" data-error="Password cannot be empty">
+        <input class="input" type="password" placeholder="Password" id="password"  required>
     </div>
     <div class="six">
         <button>CLAIM YOUR FREE TRIAL</button>
- <p>By clicking the button, you are agreeing to our<strong>Terms and conditions</strong></p>
+ <p>By clicking the button, you are agreeing to our <a href="#"><strong>Terms and conditions</strong></a></p>
     </div>
     </form>
 </div>

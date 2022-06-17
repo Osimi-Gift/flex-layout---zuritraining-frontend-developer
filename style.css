@@ -14,7 +14,7 @@ html{
 }
 body{
     font-size: 16px; 
-    font-family: "Poppins" ;
+    font-family: 'Big Shoulders Display',Poppins; ;
     font-weight:400, 500, 600, 700 ;
     
 }
@@ -64,18 +64,22 @@ input:valid {
 span{
     display:none ;
 }
+
 .input-container[data-error] .input {
-    border-color: red;
-    color: red;
-    background-color: white;
-}
-.input-container[data-error]::after {
+    border-color: hsl(0, 80%, 75%);
+    color: hsl(0, 100%, 74%);
+    background: #FFFAFA;
+  }
+  .input-container[data-error]::after {
     content: attr(data-error);
-    font-size: 0.85em;
-    color: red;
+    color: hsl(0, 100%, 74%);
+    margin: 0px;
+    font-size: 10px;
+    margin-bottom: 2px;
+    margin-top: -10px;
     display: block;
-    margin: 10px 0;
-}
+    float: right
+ }
 
 #try{
     margin-top: 40px;
@@ -128,3 +132,10 @@ button{
 strong{
     color:  hsl(0, 100%, 74%);
 }
+/* mobile  */
+@media (min-width: 375px) {}
+
+
+
+/* Desktop */
+@media (min-width: 1440px) {}
